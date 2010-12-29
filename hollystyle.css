@@ -1,0 +1,366 @@
+/* CSS Document */
+
+
+/*---------------------------------------- basics -----------------------------------------*/
+
+body {
+ margin: 0px 0px 10px 0px;
+ padding: 0px;
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 9pt;
+ color: #333333;
+ text-align: justify;
+ line-height: 17pt;
+ background: #233f71;
+}
+
+h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ color: #b39d6d;
+ padding: 20px 0px 0px 0px;
+ margin: 0px;
+ text-align: left;
+}
+
+h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ color: #1c396e;
+ padding: 20px 0px 0px 0px;
+ margin: 0px;
+ text-align: left;
+}
+
+h3 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: #333333;
+ margin: 10px 0px 0px 0px;
+ text-align: left;
+ /*font-style: italic;*/
+ padding: 10px 25px !important;
+ color: #19305C !important;
+}
+
+p {
+ font-family: Verana, Arial, sans-serif;
+ font-size: 9pt;
+ margin-top: 8px;
+ margin-bottom: 12px;
+ padding: 0px;
+ color: #333333;
+ text-align: justify;
+ line-height: 17pt;
+}
+
+ul {
+ margin: 0px;
+ padding: 10px 0px 0px 0px;
+ margin: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+acronym {
+ cursor: help;
+ border-bottom: 1px dotted #bbb;
+}
+
+a:link {
+ color: #1c396e;
+}
+a:visited {
+ color: #1c396e;
+}
+a:hover {
+ color: #b39d6d;
+ text-decoration: none;
+}
+
+a:active {
+ color: #b39d6d;
+} 
+
+
+ul#navlist a:link {
+ color: #1c396e;
+ text-decoration: none;
+}
+ul#navlist a:visited {
+ color: #1c396e;
+ text-decoration: none;
+}
+ul#navlist a:hover {
+ color: #b39d6d;
+ text-decoration: underline;
+}
+ul#navlist a:active {
+ color: #b39d6d;
+ text-decoration: none;
+} 
+
+
+#header a:link, #header1 a:link, #header2 a:link, #header3 a:link, #header4 a:link {
+ color: #fff;
+ text-decoration: none;
+}
+#header a:visited, #header1 a:visited, #header2 a:visited, #header3 a:visited, #header4 a:visited {
+ color: #fff;
+ text-decoration: none;
+}
+#header a:hover, #header1 a:hover, #header2 a:hover, #header3 a:hover, #header4 a:hover {
+ color: #dbdddf;
+ text-decoration: underline;
+}
+
+#header a:active, #header1 a:active, #header2 a:active, #header3 a:active, #header4 a:active {
+ color: #fff;
+ text-decoration: none;
+} 
+
+div#container li.garden { padding-left: 15px; font-weight: bold; font-size: 10px; color: #ffded7; }
+
+#footernav a:link {
+ color: #666666;
+ text-decoration: none;
+}
+#footernav a:visited {
+ color: #666666;
+ text-decoration: none;
+}
+#footernav a:hover {
+ color: #b39d6d;
+ text-decoration: none;
+}
+
+#footernav a:active {
+ color: #b39d6d;
+ text-decoration: none;
+} 
+
+
+a.rightnavlink:link {
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #2b3c6a;
+
+}
+a.rightnavlink:visited {
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #2b3c6a;
+}
+a.rightnavlink:hover {
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #1b2c59;
+ text-decoration: underline;
+}
+a.rightnavlink:active {
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #2b3c6a;
+} 
+
+body#welcome a#welcome,
+body#aboutTherapy a#aboutTherapy,
+body#specializations a#specializations,
+body#whyHolly a#whyHolly,
+body#resources a#resources,
+body#insurance a#insurance,
+body#contact a#contact,
+body#home a#home {
+  color: #b39d6d;
+}
+
+
+
+
+/*------------------------------------------ layout ---------------------------------------------*/
+
+#container {
+ position: relative;
+ z-index: 100;
+ border: 1px solid black;
+ width: 800px;
+ background: #ffffff;
+ padding-bottom: 30px;
+}
+
+
+#header1 {
+ background-image: url(images/top_banner1.jpg);
+ height: 170px;
+ width: 800px;
+ background-repeat: no-repeat;
+}
+
+#header2 {
+ background-image: url(images/top_banner2.jpg);
+ height: 170px;
+ width: 800px;
+ background-repeat: no-repeat;
+}
+
+#header3 {
+ background-image: url(images/top_banner3.jpg);
+ height: 170px;
+ width: 800px;
+ background-repeat: no-repeat;
+}
+
+#header4 {
+ background-image: url(images/top_banner4.jpg);
+ height: 170px;
+ width: 800px;
+ background-repeat: no-repeat;
+}
+
+#navcontainer {
+ margin: 0px;
+ padding: 0px;
+ text-align: left;
+}
+
+#navlist li {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ color: #000033;
+ text-transform: uppercase;
+ display: inline;
+ padding: 20px 0px 0px 20px;
+ list-style-type: none;
+ position: relative;
+ left: 10px;
+}
+
+#textmain {
+ margin: 0px;
+ width: 65%; 
+ float: left;
+ padding: 30px;
+ text-align: justify;
+ min-height: 650px;
+}
+
+#textmain li {
+ list-style-type: none;
+ text-align: left;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+
+#rightnav{
+ float: right;
+ padding: 0px;
+ width: 204px;
+ height: 237px;
+ margin: 0px;
+ padding: 30px 10px 0px 0px;
+}
+
+#rightnav li{
+ list-style-type: none;
+}
+
+#footercontainer {
+ margin-left: 20px;
+ padding: 0px;
+ clear: both;
+}
+
+#footernav li {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ color: #666666;
+ display: inline;
+ list-style-type: none;
+ position: relative;
+ left: -28px;
+}
+
+#header li, #header1 li, #header2 li, #header3 li, #header4 li {
+ list-style-type: none;
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: white;
+ padding-right: 8px;
+}
+
+#extraDiv2 {
+ width: 100%;
+ position:absolute;
+ top: 0;
+ left: 0;
+ height: 161px;
+ background: url(images/topbg.gif) repeat-x;
+ z-index: 10;
+}
+
+
+
+
+/*---------------------------------------------- extras ------------------------------------------*/
+
+
+.disclaimer {
+ font-size: 9px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #999999;
+ float: left;
+ padding-right: 20px;
+ text-align: left;
+ line-height: 12px;
+}
+
+.testimonial {
+ font-size: 11px;
+ font-style: italic;
+ padding-top: 10px;
+}
+
+.testimonialbio {
+ border-bottom: 1px dashed #ccc;
+ padding-bottom: 25px;
+}
+
+.formtext {
+ font-size: 11px;
+ color: #1c396e;
+}
+
+.error {
+ font-family: Arial, Helvetica, sans-serif;
+ color: red;
+ font-size: 10px;
+ line-height: 14pt;
+}
+
+.date {
+ list-style-type: none;
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #2b3c6a;
+ padding-right: 8px;
+ font-weight: bold;
+}
+
+.rightnavtext {
+ list-style-type: none;
+ font-family: verdana;
+ font-size: 9px;
+ text-align: right;
+ color: #2b3c6a;
+ padding-right: 8px;
+}
+
+.imageborder {
+ border: 1px solid #2b3c6a;
+ padding: 2px; 
+}

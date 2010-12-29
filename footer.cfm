@@ -1,4 +1,5 @@
 <br style="clear: both" />
+ <!-- footer begin -->
  <div id="footercontainer">
   <ul id="footernav">
    <li><a href="index.cfm">Welcome</a> |</li>
@@ -13,6 +14,7 @@
   </ul>
  <span class="disclaimer">Site by <a href="mailto:bmfitzgerald3@yahoo.com">Brian FitzGerald</a> | Holly FitzGerald Clinical Social Work is a trademark of Holly FitzGerald. Images and content used throughout this Web site may not be used without written consent. Other logos and images used belong to their respective owners and are used with permission.</span> 
  </div>
+ <!-- footer end -->
 </div>
 </center>
 <div id="extraDiv2"><span></span></div>

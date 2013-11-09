@@ -9,14 +9,14 @@
 
 </head>
 <body id="whyHolly">
-<cfinclude template="mainnav.cfm" />
+<?php include("mainnav.php") ?>
 
  <div id="textmain">
  <img src="images/profile.jpg" alt="Holly FitzGerald, LCSW" class="imageborder" />
   <h1>Why should I choose Holly as my therapist?</h1>
 
   <p>
-Throughout my more than 15 years of private practice as a Clinical Social Worker in Chapel Hill, North Carolina, I have positively affected the lives of many individuals. As a result, many clients have returned years later to tell me how much their lives have changed for the better. This positive response, the rate of personal referrals from past clients, and the respected opinions of many <a href="professional_opinions.cfm">professionals in the health care industry</a>, serve to illustrate why I am an excellent choice as a therapist. </p>
+Throughout my more than 15 years of private practice as a Clinical Social Worker in Chapel Hill, North Carolina, I have positively affected the lives of many individuals. As a result, many clients have returned years later to tell me how much their lives have changed for the better. This positive response, the rate of personal referrals from past clients, and the respected opinions of many <a href="professional_opinions.php">professionals in the health care industry</a>, serve to illustrate why I am an excellent choice as a therapist. </p>
 
                 <p>I have recently been added as an approved mental health and substance abuse resource. For more information, please visit the <acronym title="Substance Abuse and Mental Health Services Administration">SAMHSA</acronym> <a href="http://www.mentalhealth.samhsa.gov">information center</a> . 
                 </p> 
@@ -54,5 +54,5 @@ your needs, not mine.  I will ask you questions that guide you to find your own 
   </p>
   
  </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+<?php include("rightnav.php") ?>
+<?php include("footer.php") ?>

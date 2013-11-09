@@ -9,7 +9,7 @@
 
 </head>
 <body id="specializations">
-<cfinclude template="mainnav.cfm" />
+<?php include("mainnav.php") ?>
 
  <div id="textmain">
   <h1>Specializations including Depression, Anxiety, <acronym title="Post Traumatic Stress Disorder">PTSD</acronym></h1>
@@ -36,5 +36,5 @@
 population that you, or your caregivers, need to know. There are also coping skills to learn that will help you pass through these transitions.</p>
   </p>
  </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+<?php include("rightnav.php") ?>
+<?php include("footer.php") ?>

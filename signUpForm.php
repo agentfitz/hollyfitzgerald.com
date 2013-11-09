@@ -11,8 +11,8 @@
 }
 </style>
 <form method="post" action="http://app.icontact.com/icp/signup.php" name="icpsignup" accept-charset="UTF-8" onsubmit="return verifyRequired();" >
-<input type="hidden" name="redirect" value="http://www.hollyfitzgerald.com/newsletterSuccess.cfm" />
-<input type="hidden" name="errorredirect" value="http://www.hollyfitzgerald.com/newsletterError.cfm" />
+<input type="hidden" name="redirect" value="http://www.hollyfitzgerald.com/newsletterSuccess.php" />
+<input type="hidden" name="errorredirect" value="http://www.hollyfitzgerald.com/newsletterError.php" />
 <script type="text/javascript">
  function verifyRequired()
  {

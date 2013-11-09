@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="hollystyle.css" type="text/css" />
 
 </head>
-<body id="aboutTherapy">
-<cfinclude template="mainnav.cfm" />
+<body id="aboutTherapy"><?php include("mainnav.php") ?>
 
  <div id="textmain">
  <img src="images/windowlady.jpg">
@@ -25,7 +24,7 @@
   gaining the happiness that comes from living the life you choose.  
   </p>
   <p>
-  <a href="specializations.cfm">Depression, anxiety, post traumatic stress disorder, and many other conditions</a> are very painful. I have helped a lot of people, and  I can help you too.  I can also help your partner and family if needed.  
+  <a href="specializations.php">Depression, anxiety, post traumatic stress disorder, and many other conditions</a> are very painful. I have helped a lot of people, and  I can help you too.  I can also help your partner and family if needed.  
   </p>
   <p>
   I offer a brief "getting to know you session", so you can ascertain your
@@ -33,6 +32,4 @@
   </p>
   </p>
  </p>
- </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+ </div><?php include("rightnav.php") ?><?php include("footer.php") ?>

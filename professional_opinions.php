@@ -9,7 +9,7 @@
 
 </head>
 
-<cfinclude template="mainnav.cfm" />
+<?php include("mainnav.php") ?>
 
  <div id="textmain">
   <h1>Professional Opinions</h1>
@@ -22,5 +22,5 @@
   
 
  </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+<?php include("rightnav.php") ?>
+<?php include("footer.php") ?>

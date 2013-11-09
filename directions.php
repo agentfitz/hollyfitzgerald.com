@@ -9,7 +9,7 @@
 
 </head>
 <body id="insurance">
-<cfinclude template="mainnav.cfm" />
+<?php include("mainnav.php") ?>
 
  <div id="textmain">
   <h1>Directions to my Chapel Hill Psychotherapy Office</h1>
@@ -30,5 +30,5 @@
 <a href="http://maps.google.com/maps?f=q&hl=en&q=213+Oxford+Hills+Chapel+Hill,+NC&ie=UTF8&om=1" target="_blank">Click on Thumbnail for "Google" Directions</a>
 
  </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+<?php include("rightnav.php") ?>
+<?php include("footer.php") ?>

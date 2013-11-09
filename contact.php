@@ -8,7 +8,7 @@
 
 </head>
 <body id="contact">
-<cfinclude template="mainnav.cfm" />
+<?php include("mainnav.php") ?>
 
  <div id="textmain" style="height: 500px;">
  
@@ -22,9 +22,9 @@
     <li>Ph.  (919) 942-4778</li>
     <li>Fax. (919) 338-8044
     <li><a href="mailto:hf@mindspring.com">hf@mindspring.com</a></li>
-    <li><a href="index.cfm">www.hollyfitzgerald.com</a></li>
+    <li><a href="index.php">www.hollyfitzgerald.com</a></li>
     </span>
    </ul>
  </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+<?php include("rightnav.php") ?>
+<?php include("footer.php") ?>

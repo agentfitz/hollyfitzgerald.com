@@ -8,15 +8,14 @@
 <link rel="stylesheet" href="hollystyle.css" type="text/css" />
 
 </head>
-<body id="resources">
-<cfinclude template="mainnav.cfm" />
+<body id="resources"><?php include("mainnav.php") ?>
 
  <div id="textmain">
   <h1>Chapel Hill Therapy Resource Links</h1>
   <p>Information is wonderful, but sometimes it can be overwhelming.  In an effort to make the search a little easier, I have provided links to valuable resources related to many common mental health issues including depression, anxiety, post-traumatic stress, addictions, and more.  Feel free to take down any questions or comments about the information provided in the links below to bring to our introductory session.
    <h2>Depression</h2>
     <ul>
-     <li><a href="http://www.nimh.nih.gov/publicat/depression.cfm">What is Depression?</a></li>
+     <li><a href="http://www.nimh.nih.gov/publicat/depression.php">What is Depression?</a></li>
      <li><a href="http://www.depression.com/understanding_depression.html">Understanding Depression</a></li>
      <li><a href="http://en.wikipedia.org/wiki/Clinical_depression">Wikipedia on Depression</a></li>
      <li><a href="http://www.cymbalta.com/depression/understand/causes.jsp?reqNavId=1.3&ccd=mdddtcbrd249">Symptoms of Depression</a></li>
@@ -24,17 +23,17 @@
    <h2>Anxiety</h2>
     <ul>
      <li><a href="http://www.womentowomen.com/depressionanxietyandmood/anxiety.asp?id=1&campaignno=anxiety&adgroup=adgroup1&keywords=anxiety">Women with Anxiety</a></li>
-     <li><a href="http://www.nimh.nih.gov/HealthInformation/anxietymenu.cfm">Anxiety Disorders</a></li>
+     <li><a href="http://www.nimh.nih.gov/HealthInformation/anxietymenu.php">Anxiety Disorders</a></li>
      <li><a href="http://www.algy.com/anxiety/">Anxiety Panic Resource</a></li>
      <li><a href="http://mentalhelp.net/poc/center_index.php?id=1">Mental Health.net on Anxiety</a></li>
-    </ul>
-  
+    </ul>  
    <h2>Post Traumatic Stress</h2>
     <ul>
      <li><a href="http://www.ncptsd.va.gov/facts/general/fs_what_is_ptsd.html">What is <acronym title="Post Traumatic Stress Disorder">PTSD</acronym>?</a></li>
      <li><a href="http://www.ptsdalliance.org/">PTSD Alliance</a></li>
      <li><a href="http://www.ptsd.factsforhealth.org/">PTSD Facts for Health</a></li>
      <li><a href="http://en.wikipedia.org/wiki/Post_Traumatic_Stress_Disorder">Wikipedia on PTSD</a></li>
+     <li><a href="http://warwithin.org/">The War Within</a></li>
     </ul>
    <h2>Addictions</h2>
     <ul>
@@ -57,8 +56,10 @@
      <li><a href="http://beauty.about.com/od/therealfountainofyouth/">Find Humor in Aging</a></li>
      <li><a href="http://www.info.gov.hk/elderly/english/health_information.htm">Staying Healthy</a></li>
     </ul>
+   <h2>Physical Health Issues</h2>
+    <ul>
+     <li><a href="http://www.mesothelioma.com/mesothelioma.htm">Mesothelioma</a></li>
+    </ul>
   </p>
   </p>
- </div>
-<cfinclude template="rightnav.cfm" />
-<cfinclude template="footer.cfm" />
+ </div><?php include("rightnav.php") ?><?php include("footer.php") ?>

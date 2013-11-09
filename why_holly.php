@@ -16,13 +16,16 @@
   <h1>Why should I choose Holly as my therapist?</h1>
 
   <p>
-Throughout my more than 15 years of private practice as a Clinical Social Worker in Chapel Hill, North Carolina, I have positively affected the lives of many individuals. As a result, many clients have returned years later to tell me how much their lives have changed for the better. This positive response, the rate of personal referrals from past clients, and the respected opinions of many <a href="professional_opinions.php">professionals in the health care industry</a>, serve to illustrate why I am an excellent choice as a therapist. </p>
-
-                <p>I have recently been added as an approved mental health and substance abuse resource. For more information, please visit the <acronym title="Substance Abuse and Mental Health Services Administration">SAMHSA</acronym> <a href="http://www.mentalhealth.samhsa.gov">information center</a> . 
-                </p> 
-
-                <p><em>Below, I discuss a few of the specifics which set me apart in practice and technique.</em></p>
+    Throughout my more than 15 years of private practice as a Clinical Social Worker in Chapel Hill, North Carolina,
+    I have positively affected the lives of many individuals. As a result, many clients have returned years later to
+    tell me how much their lives have changed for the better. This positive response, the rate of personal referrals
+    from past clients, and the respected opinions of many <a href="professional_opinions.php">professionals in the
+    health care industry</a>, serve to illustrate why I am an excellent choice as a therapist.
   </p>
+
+    <p><em>Below, I discuss a few of the specifics which set me apart in practice and technique.</em></p>
+
+
   <p>
   <strong>As someone you can talk to</strong>, I can help you feel comfortable saying what you need to say.  I will listen and offer pragmatic feedback.   I will work hard to find realistic day-to-day solutions that will make a difference in your life.
   </p>
@@ -50,7 +53,7 @@ your needs, not mine.  I will ask you questions that guide you to find your own 
 <strong>Interested in reading more about your issue?</strong> I have a lending library covering a variety of topics.  I have handouts that are suitable for "refrigerator posting" for yourself and your  family.
    </p>
   <p>
-<strong>I am fully <acronym title="Health Insurance Portability and Accountability Act">HIPAA</acronym> compliant</strong>, and will guard your information and privacy. I am listed with the "Healthy Carolinians of Orange County" as a "Teen Friendly" advocate for adolescents, as well as a member of the National Association of Social Workers.
+<strong>I am fully <acronym title="Health Insurance Portability and Accountability Act">HIPAA</acronym> compliant</strong>, and will guard your information and privacy.
   </p>
   
  </div>

@@ -2,7 +2,7 @@
 <div id="container">
  <div id="header<?php echo rand(1, 4) ?>">
    <ul>
-     <li><strong><a href="mailto:hf@mindspring.com">hf@mindspring.com</a></strong></li>
+     <li><strong><a href="mailto:hollyfitz1@gmail.com">hollyfitz1@gmail.com</a></strong></li>
      <li>Ph. (919) 942-4778</li>
      <li>Fax. (919) 338-8044</li>
      <li>213 Oxford Hills Dr.</li>

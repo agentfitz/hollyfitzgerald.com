@@ -17,9 +17,16 @@
   <p>
     I file all insurance claims electronically, and will accept co-pays from you once your annual deductible is paid.
     Until your deductible is paid, I will ask you to pay me the full amount, unless we have made prior arrangements.
-    You may pay by check or cash or via paypal if you choose to use a credit card. I will discuss a sliding scale if needed.
+    I will discuss a sliding scale if needed.
     You may call me on the phone if you need help between sessions. I'll call you back when I'm available.
     I add the time up that we spend on the phone, and bill it as a session when we reach 50 minutes.
+  </p>
+
+  <p>
+	Appointments can be scheduled where we will speak via FaceTime or Skype.
+	You may pay by check or cash or via paypal if you choose to use a credit card.
+	I also accept charge card payments for office appointments.
+	Checks and cash are always fine for payment.
   </p>
   <br />
 <p><strong>I am a directly enrolled preferred provider for:</strong></p>

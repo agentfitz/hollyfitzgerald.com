@@ -21,7 +21,7 @@
     <li>Chapel Hill, NC 27514-2131 </li>
     <li>Ph.  (919) 942-4778</li>
     <li>Fax. (919) 338-8044
-    <li><a href="mailto:hf@mindspring.com">hf@mindspring.com</a></li>
+    <li><a href="mailto:hollyfitz1@gmail.com">hollyfitz1@gmail.com</a></li>
     <li><a href="index.php">www.hollyfitzgerald.com</a></li>
     </span>
    </ul>
